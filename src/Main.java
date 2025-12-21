@@ -4,13 +4,13 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         //nested loop
-        /*for (int i = 1; i <= 3; i++) {
+        for (int i = 1; i <= 3; i++) {
             for (int j = 1; j <= 9; j++) {
-                System.out.print(j+" ");
+                System.out.print(j + " ");
             }
             System.out.println();
-        }*/
-        /*Scanner in = new Scanner(System.in);
+        }
+        Scanner in = new Scanner(System.in);
         int rows;
         int columns;
         char symbol;
@@ -26,26 +26,26 @@ public class Main {
 
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= columns; j++) {
-                System.out.print(symbol+" ");
+                System.out.print(symbol + " ");
             }
             System.out.println();
         }
-        in.close();*/
+        in.close();
 
         //break = break out of a loop (STOP)
         // continue = skip current iteration of a loop (SKIP)
-       /* for (int i = 0; i < 10; i++) {
-         if (i == 5){
+        for (int i = 0; i < 10; i++) {
+            if (i == 5) {
                 break;
-            }*/
-            /*if (i == 5){
+            }
+            if (i == 5){
                 continue;
             }
             System.out.print(i+" ");
-        }*/
+        }
 
 
-        /*Scanner in = new Scanner(System.in);
+        //Scanner in = new Scanner(System.in);
         System.out.println("enter the day: ");
         String day = in.nextLine();
 
@@ -54,9 +54,9 @@ public class Main {
             case "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" -> System.out.println("It is a weekday🥺");
             case "Saturday", "Sunday" -> System.out.println("It is a weekend🥳");
             default -> System.out.printf("%s does not exist", day);
-        }*/
+        }
 
-        //SWITCH STATEMENTS
+            //SWITCH STATEMENTS
         /*switch (day){
             case "Monday" -> System.out.println("It is a weekday🥺");
             case "Tuesday" -> System.out.println("It is a weekday🥺");
@@ -69,8 +69,8 @@ public class Main {
         }*/
 
 
-        //ternary operator ?  = Return 1 or 2 values if a condition is true
-        // variable = (condition) ? ifTrue : ifFalse;
+            //ternary operator ?  = Return 1 or 2 values if a condition is true
+            // variable = (condition) ? ifTrue : ifFalse;
         /*int score = 70;
         String passORfail = (score >= 60) ? "PASS":"FAIL";
         System.out.println(passORfail);*/
@@ -92,7 +92,7 @@ public class Main {
             System.out.println("Hello "+name1);
         }*/
 
-        //printf format
+            //printf format
         /*String name = "spongebob";
         char first_letter = 'S';
         int age = 30;
@@ -121,7 +121,7 @@ public class Main {
         to round-off to down use Math.floor
         */
 
-        //random class
+            //random class
 //        Random random = new Random();
 /*        double num1;
         double num2;
@@ -140,5 +140,5 @@ public class Main {
         else {
             System.out.println("Tails");
         }*/
+        }
     }
-}
