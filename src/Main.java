@@ -2,8 +2,21 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class Main {
+    static void happyBirthday(String name, int age) {
+        System.out.println("Happy Birthday to you!");
+        System.out.printf("Happy Birthday dear %s!\n",name);
+        System.out.printf("You are %d years old!\n", age);
+        System.out.println("Happy Birthday to you!\n");
+    }
+
     public static void main(String[] args) {
-        //nested loop
+
+        //METHOD = a block of reusable code that is executed when called ()
+//        String name = "SpongeBob";
+//        int age = 24;
+//        happyBirthday(name,age);
+
+        /*//nested loop
         for (int i = 1; i <= 3; i++) {
             for (int j = 1; j <= 9; j++) {
                 System.out.print(j + " ");
@@ -54,7 +67,7 @@ public class Main {
             case "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" -> System.out.println("It is a weekday🥺");
             case "Saturday", "Sunday" -> System.out.println("It is a weekend🥳");
             default -> System.out.printf("%s does not exist", day);
-        }
+        }*/
 
             //SWITCH STATEMENTS
         /*switch (day){
