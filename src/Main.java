@@ -27,6 +27,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        //overload methods
+        /*System.out.println(add(1,2));
+        System.out.println(add(1,34,4));*/
+        String pizza = bakePizza("flat bread");
+        System.out.println(pizza);
+        String cheesyPizza = bakePizza("thin crust", "double burst cheese");
+        System.out.println(cheesyPizza);
 
         //METHOD = a block of reusable code that is executed when called ()
 //        String name = "SpongeBob";
