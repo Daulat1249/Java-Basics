@@ -65,6 +65,5 @@ public class Arrays_OOPs {
             System.out.println("element not found!");
         }
 
-
     }
 }
